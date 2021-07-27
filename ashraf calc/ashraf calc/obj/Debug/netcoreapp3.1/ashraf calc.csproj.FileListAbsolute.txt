@@ -1,0 +1,15 @@
+C:\my project\ashraf calc\ashraf calc\bin\Debug\netcoreapp3.1\ashraf calc.exe
+C:\my project\ashraf calc\ashraf calc\bin\Debug\netcoreapp3.1\ashraf calc.deps.json
+C:\my project\ashraf calc\ashraf calc\bin\Debug\netcoreapp3.1\ashraf calc.runtimeconfig.json
+C:\my project\ashraf calc\ashraf calc\bin\Debug\netcoreapp3.1\ashraf calc.runtimeconfig.dev.json
+C:\my project\ashraf calc\ashraf calc\bin\Debug\netcoreapp3.1\ashraf calc.dll
+C:\my project\ashraf calc\ashraf calc\bin\Debug\netcoreapp3.1\ashraf calc.pdb
+C:\my project\ashraf calc\ashraf calc\obj\Debug\netcoreapp3.1\ashraf calc.csprojAssemblyReference.cache
+C:\my project\ashraf calc\ashraf calc\obj\Debug\netcoreapp3.1\ashraf_calc.Form1.resources
+C:\my project\ashraf calc\ashraf calc\obj\Debug\netcoreapp3.1\ashraf calc.csproj.GenerateResource.cache
+C:\my project\ashraf calc\ashraf calc\obj\Debug\netcoreapp3.1\ashraf calc.AssemblyInfoInputs.cache
+C:\my project\ashraf calc\ashraf calc\obj\Debug\netcoreapp3.1\ashraf calc.AssemblyInfo.cs
+C:\my project\ashraf calc\ashraf calc\obj\Debug\netcoreapp3.1\ashraf calc.csproj.CoreCompileInputs.cache
+C:\my project\ashraf calc\ashraf calc\obj\Debug\netcoreapp3.1\ashraf calc.dll
+C:\my project\ashraf calc\ashraf calc\obj\Debug\netcoreapp3.1\ashraf calc.pdb
+C:\my project\ashraf calc\ashraf calc\obj\Debug\netcoreapp3.1\ashraf calc.genruntimeconfig.cache
