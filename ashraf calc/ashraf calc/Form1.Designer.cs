@@ -32,9 +32,13 @@ namespace ashraf_calc
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
@@ -44,10 +48,6 @@ namespace ashraf_calc
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,11 +62,12 @@ namespace ashraf_calc
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Segoe UI Symbol", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button1.Location = new System.Drawing.Point(550, 32);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(177, 49);
             this.button1.TabIndex = 1;
-            this.button1.Text = "AC";
+            this.button1.Text = "C";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -103,28 +104,53 @@ namespace ashraf_calc
             this.tableLayoutPanel1.Size = new System.Drawing.Size(490, 260);
             this.tableLayoutPanel1.TabIndex = 2;
             // 
-            // button2
+            // button17
             // 
-            this.button2.Location = new System.Drawing.Point(3, 3);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(116, 59);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "7";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button17.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button17.Location = new System.Drawing.Point(125, 198);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(116, 59);
+            this.button17.TabIndex = 15;
+            this.button17.Text = ".";
+            this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
-            // button3
+            // button16
             // 
-            this.button3.Location = new System.Drawing.Point(125, 3);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(116, 59);
-            this.button3.TabIndex = 1;
-            this.button3.Text = "8";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button16.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button16.Location = new System.Drawing.Point(3, 198);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(116, 59);
+            this.button16.TabIndex = 14;
+            this.button16.Text = "0";
+            this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
+            // 
+            // button15
+            // 
+            this.button15.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button15.Location = new System.Drawing.Point(369, 198);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(118, 59);
+            this.button15.TabIndex = 13;
+            this.button15.Text = "/";
+            this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
+            // 
+            // button14
+            // 
+            this.button14.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button14.Location = new System.Drawing.Point(247, 198);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(116, 59);
+            this.button14.TabIndex = 12;
+            this.button14.Text = "=";
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // button4
             // 
+            this.button4.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button4.Location = new System.Drawing.Point(247, 3);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(116, 59);
@@ -133,8 +159,31 @@ namespace ashraf_calc
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button3.Location = new System.Drawing.Point(125, 3);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(116, 59);
+            this.button3.TabIndex = 1;
+            this.button3.Text = "8";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button2.Location = new System.Drawing.Point(3, 3);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(116, 59);
+            this.button2.TabIndex = 0;
+            this.button2.Text = "7";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // button5
             // 
+            this.button5.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button5.Location = new System.Drawing.Point(369, 3);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(118, 59);
@@ -145,6 +194,7 @@ namespace ashraf_calc
             // 
             // button6
             // 
+            this.button6.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button6.Location = new System.Drawing.Point(3, 68);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(116, 59);
@@ -155,6 +205,7 @@ namespace ashraf_calc
             // 
             // button7
             // 
+            this.button7.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button7.Location = new System.Drawing.Point(125, 68);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(116, 59);
@@ -165,6 +216,7 @@ namespace ashraf_calc
             // 
             // button8
             // 
+            this.button8.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button8.Location = new System.Drawing.Point(247, 68);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(116, 59);
@@ -175,6 +227,7 @@ namespace ashraf_calc
             // 
             // button9
             // 
+            this.button9.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button9.Location = new System.Drawing.Point(369, 68);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(118, 59);
@@ -185,6 +238,7 @@ namespace ashraf_calc
             // 
             // button10
             // 
+            this.button10.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button10.Location = new System.Drawing.Point(3, 133);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(116, 59);
@@ -195,6 +249,7 @@ namespace ashraf_calc
             // 
             // button11
             // 
+            this.button11.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button11.Location = new System.Drawing.Point(125, 133);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(116, 59);
@@ -205,6 +260,7 @@ namespace ashraf_calc
             // 
             // button12
             // 
+            this.button12.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button12.Location = new System.Drawing.Point(247, 133);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(116, 59);
@@ -215,6 +271,7 @@ namespace ashraf_calc
             // 
             // button13
             // 
+            this.button13.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button13.Location = new System.Drawing.Point(369, 133);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(118, 59);
@@ -222,46 +279,6 @@ namespace ashraf_calc
             this.button13.Text = "*";
             this.button13.UseVisualStyleBackColor = true;
             this.button13.Click += new System.EventHandler(this.button13_Click);
-            // 
-            // button14
-            // 
-            this.button14.Location = new System.Drawing.Point(247, 198);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(116, 59);
-            this.button14.TabIndex = 12;
-            this.button14.Text = "=";
-            this.button14.UseVisualStyleBackColor = true;
-            this.button14.Click += new System.EventHandler(this.button14_Click);
-            // 
-            // button15
-            // 
-            this.button15.Location = new System.Drawing.Point(369, 198);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(118, 59);
-            this.button15.TabIndex = 13;
-            this.button15.Text = "/";
-            this.button15.UseVisualStyleBackColor = true;
-            this.button15.Click += new System.EventHandler(this.button15_Click);
-            // 
-            // button16
-            // 
-            this.button16.Location = new System.Drawing.Point(3, 198);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(116, 59);
-            this.button16.TabIndex = 14;
-            this.button16.Text = "0";
-            this.button16.UseVisualStyleBackColor = true;
-            this.button16.Click += new System.EventHandler(this.button16_Click);
-            // 
-            // button17
-            // 
-            this.button17.Location = new System.Drawing.Point(125, 198);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(116, 59);
-            this.button17.TabIndex = 15;
-            this.button17.Text = ".";
-            this.button17.UseVisualStyleBackColor = true;
-            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // Form1
             // 
